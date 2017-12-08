@@ -1,0 +1,6 @@
+;; Place this file in C:\Users\Username\AppData\Roaming and point to the appropriate files
+(setq user-init-file "f:/Google Drive/emacs/.emacs")
+(setq user-emacs-directory "f:/Google Drive/emacs/.emacs.d")
+(setq default-directory "f:/Google Drive")
+(setenv "HOME" "f:/Google Drive/emacs")
+(load user-init-file)
